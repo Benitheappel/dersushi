@@ -30,6 +30,10 @@
         "name": "Wettbewerb",
         "vorschau": "Verunstalte mich und gewinne"
       },
+      "blog": {
+        "name": "Blog",
+        "vorschau": "Neuigkeiten aus dem Wahlkampf"
+      },
       "eierZerstoerer": {
         "name": "Eier-Zerstörer",
         "vorschau": "klicken nicht kicken"
@@ -223,11 +227,11 @@
       "Ich schaue mir jede Einsendung an. Die besten kommen in die Hall of Fame, das beste gewinnt."
     ],
     "preisUeberschrift": "Preis",
-    "preis": "",
+    "preis": "25€",
     "einsendeschlussUeberschrift": "Einsendeschluss",
-    "einsendeschluss": "",
-    "regelnHinweis": "Nichts Beleidigendes, nichts Unangemessenes und keine Fotos anderer Personen. Solche Einsendungen werden gelöscht.",
-    "datenschutz": "Deine E-Mail-Adresse wird nie veröffentlicht. Sie dient nur dazu, dass jede Person einmal teilnimmt, und um Gewinner zu kontaktieren. Details stehen in der Datenschutzerklärung.",
+    "einsendeschluss": "9.10.2026",
+    "regelnHinweis": "Nichts Beleidigendes (außer es beleidigt meine Person), nichts Unangemessenes und keine Fotos von anderen Personen. Solche Einsendungen werden gelöscht.",
+    "datenschutz": "Deine E-Mail Adresse wird nie veröffentlicht. Sie dient nur dazu, dass jede Person einmal teilnimmt, und um Gewinner zu kontaktieren. Details stehen in der Datenschutzerklärung.",
     "galerieUeberschrift": "Hall of Fame",
     "galerieLeer": "Noch keine Bilder freigegeben. Sei der Erste!",
     "galerieNichtVerbunden": "Die Hall of Fame ist noch nicht verbunden.",
@@ -253,6 +257,17 @@
     "schonTeilgenommen": "Mit dieser E-Mail-Adresse wurde schon eingesendet. Jede Person darf nur einmal teilnehmen.",
     "schonTeilgenommenGeraet": "Von diesem Gerät wurde schon ein Bild eingesendet. Jede Person darf nur einmal teilnehmen.",
     "ungueltig": "Da stimmt etwas mit deinen Angaben nicht. Bitte prüfe Name und E-Mail."
+  },
+  "blog": {
+    "browserTitel": "Blog",
+    "ueberschrift": "Blog",
+    "untertitel": "Neuigkeiten, Gedanken und Updates aus dem Wahlkampf.",
+    "keineBeitraege": "Hier steht noch nichts. Der erste Beitrag kommt bald.",
+    "weiterlesen": "Weiterlesen →",
+    "zurueck": "← Alle Beiträge",
+    "lesezeit": "{minuten} Min. Lesezeit",
+    "neuerer": "← Neuerer Beitrag",
+    "aelterer": "Älterer Beitrag →"
   },
   "eierZerstoerer": {
     "browserTitel": "Eier-Zerstörer",
@@ -367,6 +382,7 @@
         "absaetze": [
           "Die Website wird bei {hosting} betrieben. Beim Aufruf verarbeitet der Hosting-Anbieter technisch notwendige Daten wie IP-Adresse, Zeitpunkt, aufgerufene Seite und Browser-Informationen, um die Website auszuliefern und abzusichern. GitHub speichert dabei laut eigenen Angaben die IP-Adressen der Besucher aus Sicherheitsgründen, auch wenn du kein GitHub-Konto hast.",
           "GitHub ist ein Unternehmen mit Sitz in den USA. Deine Daten können dabei in die USA übermittelt werden. Die Übermittlung stützt sich auf den Angemessenheitsbeschluss der EU-Kommission zum EU-US Data Privacy Framework (Art. 45 DSGVO), unter dem GitHub zertifiziert ist, und ergänzend auf EU-Standardvertragsklauseln (Art. 46 Abs. 2 lit. c DSGVO). Datenschutzerklärung von GitHub: https://docs.github.com/de/site-policy/privacy-policies/github-general-privacy-statement",
+          "Bilder in den Blog-Beiträgen werden von Supabase Inc. ausgeliefert (Rechenzentrum: {supabaseRegion}). Beim Laden eines Blog-Bildes wird dabei deine IP-Adresse an Supabase übertragen. Zur Absicherung einer möglichen Übermittlung in die USA siehe Abschnitt 7.",
           "Rechtsgrundlage ist mein berechtigtes Interesse an einem sicheren Betrieb (Art. 6 Abs. 1 lit. f DSGVO). Die Speicherdauer richtet sich nach dem Hosting-Anbieter."
         ]
       },

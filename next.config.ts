@@ -15,6 +15,6 @@ export default function config(phase: string): NextConfig {
     ...(dev ? {} : { output: "export", trailingSlash: true }),
     basePath,
     env: { NEXT_PUBLIC_BASE_PATH: basePath },
-    pageExtensions: dev ? ["tsx", "ts", "dev.ts"] : ["tsx", "ts"],
+    pageExtensions: dev ? ["tsx", "ts", "dev.tsx", "dev.ts"] : ["tsx", "ts"],
   };
 }

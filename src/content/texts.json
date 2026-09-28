@@ -263,6 +263,9 @@
     "ueberschrift": "Blog",
     "untertitel": "Neuigkeiten, Gedanken und Updates aus dem Wahlkampf.",
     "keineBeitraege": "Hier steht noch nichts. Der erste Beitrag kommt bald.",
+    "laden": "Lade Beiträge …",
+    "ladeFehler": "Die Beiträge konnten gerade nicht geladen werden. Versuch es später nochmal.",
+    "nichtGefunden": "Diesen Beitrag gibt es nicht (mehr).",
     "weiterlesen": "Weiterlesen →",
     "zurueck": "← Alle Beiträge",
     "lesezeit": "{minuten} Min. Lesezeit",
@@ -382,7 +385,7 @@
         "absaetze": [
           "Die Website wird bei {hosting} betrieben. Beim Aufruf verarbeitet der Hosting-Anbieter technisch notwendige Daten wie IP-Adresse, Zeitpunkt, aufgerufene Seite und Browser-Informationen, um die Website auszuliefern und abzusichern. GitHub speichert dabei laut eigenen Angaben die IP-Adressen der Besucher aus Sicherheitsgründen, auch wenn du kein GitHub-Konto hast.",
           "GitHub ist ein Unternehmen mit Sitz in den USA. Deine Daten können dabei in die USA übermittelt werden. Die Übermittlung stützt sich auf den Angemessenheitsbeschluss der EU-Kommission zum EU-US Data Privacy Framework (Art. 45 DSGVO), unter dem GitHub zertifiziert ist, und ergänzend auf EU-Standardvertragsklauseln (Art. 46 Abs. 2 lit. c DSGVO). Datenschutzerklärung von GitHub: https://docs.github.com/de/site-policy/privacy-policies/github-general-privacy-statement",
-          "Bilder in den Blog-Beiträgen werden von Supabase Inc. ausgeliefert (Rechenzentrum: {supabaseRegion}). Beim Laden eines Blog-Bildes wird dabei deine IP-Adresse an Supabase übertragen. Zur Absicherung einer möglichen Übermittlung in die USA siehe Abschnitt 7.",
+          "Die Blog-Beiträge und ihre Bilder werden beim Aufruf direkt von Supabase Inc. geladen (Rechenzentrum: {supabaseRegion}). Dabei wird deine IP-Adresse an Supabase übertragen. Zur Absicherung einer möglichen Übermittlung in die USA siehe Abschnitt 7.",
           "Rechtsgrundlage ist mein berechtigtes Interesse an einem sicheren Betrieb (Art. 6 Abs. 1 lit. f DSGVO). Die Speicherdauer richtet sich nach dem Hosting-Anbieter."
         ]
       },

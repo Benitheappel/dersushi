@@ -61,6 +61,8 @@ export default function BlogEditor() {
   const [stand, setStand] = useState(() => JSON.stringify({ ...leer(), slug: "" }));
   const [meldung, setMeldung] = useState<{ text: string; fehler?: boolean } | null>(null);
   const [laedt, setLaedt] = useState(0);
+  const [verbindung, setVerbindung] = useState<string | null>(null);
+  const [lokal, setLokal] = useState(0);
   const [speichert, setSpeichert] = useState(false);
   const [ansicht, setAnsicht] = useState<"schreiben" | "vorschau">("schreiben");
   const [ziehen, setZiehen] = useState(false);
@@ -72,10 +74,36 @@ export default function BlogEditor() {
 
   const listeLaden = useCallback(async () => {
     const r = await fetch("/api/blog", { cache: "no-store" });
-    const l: BeitragMitSlug[] = await r.json();
-    setListe(l);
-    return l;
+    const j = await r.json().catch(() => ({}));
+    if (!r.ok) {
+      setVerbindung(j.error ?? "Keine Verbindung zur Datenbank");
+      return [];
+    }
+    setVerbindung(null);
+    setLokal(j.lokal ?? 0);
+    setListe(j.beitraege);
+    return j.beitraege as BeitragMitSlug[];
   }, []);
+
+  const importieren = async () => {
+    setLaedt((n) => n + 1);
+    try {
+      const r = await fetch("/api/blog", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ import: true }) });
+      const j = await r.json().catch(() => ({}));
+      if (!r.ok) throw new Error(j.error ?? "Übernehmen fehlgeschlagen");
+      await listeLaden();
+      const fehler: string[] = j.fehler ?? [];
+      setMeldung(
+        fehler.length
+          ? { text: `Nicht übernommen: ${fehler.join("; ")}`, fehler: true }
+          : { text: `${j.uebernommen.length} Beitrag/Beiträge übernommen. Die alten Dateien liegen zur Sicherheit in „blog-backup“.` },
+      );
+    } catch (e) {
+      setMeldung({ text: (e as Error).message, fehler: true });
+    } finally {
+      setLaedt((n) => n - 1);
+    }
+  };
 
   const oeffnen = useCallback((p: BeitragMitSlug | null) => {
     const { slug: s = "", ...rest } = p ?? { ...leer(), slug: "" };
@@ -142,7 +170,7 @@ export default function BlogEditor() {
       window.history.replaceState(null, "", `?slug=${slug}`);
       await listeLaden();
       const zeit = new Date().toLocaleTimeString("de-AT", { hour: "2-digit", minute: "2-digit" });
-      setMeldung({ text: `Gespeichert um ${zeit}${b.entwurf ? " (Entwurf, nicht öffentlich)" : ""}.` });
+      setMeldung({ text: `Gespeichert um ${zeit}${b.entwurf ? " (Entwurf, nur für dich sichtbar)" : " – ist jetzt online"}.` });
     } catch (e) {
       setMeldung({ text: (e as Error).message, fehler: true });
     } finally {
@@ -154,7 +182,7 @@ export default function BlogEditor() {
     if (!gespeichertAls) return oeffnen(null);
     if (!window.confirm(`„${b.titel}“ wirklich löschen? Das geht nicht rückgängig.`)) return;
     const r = await fetch(`/api/blog?slug=${encodeURIComponent(gespeichertAls)}`, { method: "DELETE" });
-    if (!r.ok) return setMeldung({ text: "Löschen fehlgeschlagen.", fehler: true });
+    if (!r.ok) return setMeldung({ text: (await r.json().catch(() => ({}))).error ?? "Löschen fehlgeschlagen.", fehler: true });
     await listeLaden();
     oeffnen(null);
     setMeldung({ text: "Beitrag gelöscht." });
@@ -298,7 +326,7 @@ export default function BlogEditor() {
           {speichert ? "Speichert …" : "Speichern"}
         </button>
         {gespeichertAls && (
-          <Link className="btn" href={`/blog/${gespeichertAls}`} target="_blank">
+          <Link className="btn" href={`/blog/lesen?b=${gespeichertAls}`} target="_blank">
             Ansehen ↗
           </Link>
         )}
@@ -309,6 +337,23 @@ export default function BlogEditor() {
           {gespeichertAls ? "Löschen" : "Verwerfen"}
         </button>
       </div>
+
+      {verbindung && (
+        <p className={styles.banner} data-art="fehler" role="alert">
+          <b>Keine Verbindung zur Datenbank:</b> {verbindung}
+          <button type="button" className="btn" onClick={listeLaden}>
+            Nochmal versuchen
+          </button>
+        </p>
+      )}
+      {!verbindung && lokal > 0 && (
+        <p className={styles.banner} role="status">
+          Auf deinem PC {lokal === 1 ? "liegt noch 1 alter Beitrag" : `liegen noch ${lokal} alte Beiträge`}, die noch nicht in der Datenbank {lokal === 1 ? "ist" : "sind"}.
+          <button type="button" className="btn" onClick={importieren} disabled={laedt > 0}>
+            In die Datenbank übernehmen
+          </button>
+        </p>
+      )}
 
       <div className={styles.body}>
         <aside className={styles.side} aria-label="Deine Beiträge">
@@ -398,11 +443,11 @@ export default function BlogEditor() {
               <legend className="sr-only">Sichtbarkeit</legend>
               <label className={styles.radio}>
                 <input type="radio" name="sichtbarkeit" checked={b.entwurf} onChange={() => feld("entwurf", true)} />
-                Entwurf <span className={styles.hint}>(nur lokal sichtbar)</span>
+                Entwurf <span className={styles.hint}>(nur für dich sichtbar)</span>
               </label>
               <label className={styles.radio}>
                 <input type="radio" name="sichtbarkeit" checked={!b.entwurf} onChange={() => feld("entwurf", false)} />
-                Veröffentlichen <span className={styles.hint}>(online nach dem Hochladen)</span>
+                Veröffentlichen <span className={styles.hint}>(sofort online nach dem Speichern)</span>
               </label>
             </fieldset>
           </fieldset>

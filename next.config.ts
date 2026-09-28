@@ -1,9 +1,13 @@
+import { existsSync } from "node:fs";
 import type { NextConfig } from "next";
 import { PHASE_DEVELOPMENT_SERVER } from "next/constants";
 
 export default function config(phase: string): NextConfig {
   const dev = phase === PHASE_DEVELOPMENT_SERVER;
-  const basePath = dev ? "" : (process.env.PAGES_BASE_PATH ?? "").replace(/\/$/, "");
+  const customDomain = existsSync("public/CNAME");
+  const repo = process.env.GITHUB_REPOSITORY?.split("/")[1];
+  const fromPages = (process.env.PAGES_BASE_PATH ?? "").replace(/\/$/, "");
+  const basePath = dev || customDomain ? "" : fromPages || (repo ? `/${repo}` : "");
 
   return {
     reactStrictMode: true,

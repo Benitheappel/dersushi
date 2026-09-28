@@ -1,0 +1,50 @@
+.info {
+  display: grid;
+  grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
+  gap: 18px;
+  align-items: start;
+}
+
+.steps {
+  display: grid;
+  gap: 6px;
+}
+
+.steps li {
+  display: grid;
+  grid-template-columns: 26px minmax(0, 1fr);
+  align-items: baseline;
+}
+
+.no {
+  font-family: var(--f-pixel);
+  font-weight: 700;
+}
+
+.warn {
+  margin-top: 10px;
+  font-size: 12.5px;
+  color: #a00000;
+}
+
+.facts {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 4px 10px;
+}
+
+.facts dt {
+  font-weight: 700;
+}
+
+.privacy {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #444;
+}
+
+@media (max-width: 760px) {
+  .info {
+    grid-template-columns: 1fr;
+  }
+}

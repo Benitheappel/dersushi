@@ -1,0 +1,97 @@
+{
+  "zwischenruf": "So, ich weiß, was du denkst: sehr viel Blah blah blah. Aber hier kommt mein letztes Versprechen, und jetzt könnt ihr die Ohren spitzen.",
+  "liste": [
+    {
+      "_id": "events",
+      "nummer": "01",
+      "ueberschriftKlein": "BESSERE SCHULEVENTS",
+      "titel": "Bessere Schulevents",
+      "kurzfassung": "Mehr Spaß und Kreativität. Nicht mehr Schule.",
+      "absaetze": [
+        "Gerade gibt es fast nichts Cooles, was man während der Schulzeit machen kann. Ich möchte das gerne ändern. Nein, nicht mit mehr Schule, sondern mit mehr Spaß und Kreativität, etwas, das, zumindest meiner Meinung nach, irgendwie verloren gegangen ist.",
+        "Die folgenden Events würde ich veranstalten und durchführen:"
+      ],
+      "punkte": [
+        {
+          "titel": "Schachturnier",
+          "text": "Schach ist der beste Zeitvertreib für eine langweilige Stunde, neben CS2 spielen. Ein schulweites Schach event wäre eine gute und coole Gelegenheit, seine Skills der ganzen Schule zu beweisen und seine Abteilung zu repräsentieren. Der Gewinner würde nicht nur eine coole Trophäe bekommen, sondern auch einen kleinen Preis, den ich persönlich finanzieren werde.",
+          "detailsFolgenStempel": true
+        },
+        {
+          "titel": "CreativeJam",
+          "text": "Die meisten, die das hier lesen, kennen eine Game Jam: Man bekommt ein Thema, eine Restriktion oder was auch immer für einen gewissen Zeitraum und muss irgendein Game mit diesen Konditionen erstellen. Dasselbe würde ich gerne auch in unserer kleinen Schule veranstalten. Mehr Infos folgen.",
+          "detailsFolgenStempel": true
+        },
+        {
+          "titel": "Schulweites Sportturnier",
+          "text": "Ein Konzept, das oft versprochen oder besprochen, aber von niemandem je umgesetzt wurde. Die besten Sportler aus verschiedenen Abteilungen treten gegeneinander an, wie bei einer Schulolympiade: Fußball, Volleyball, Rennen, Springen, Weitwurf, Tischtennis, was auch immer. Schüler repräsentieren ihre eigene Abteilung, egal in welcher Sportart.",
+          "detailsFolgenStempel": true
+        },
+        {
+          "titel": "Out-of-School-Events",
+          "text": "Sachen, die man in der Freizeit außerhalb der Schule auf Discord veranstalten kann. Ein CS2, Valo, Smash oder Wasauchimmer Turnier. Wäre cool.",
+          "detailsFolgenStempel": true
+        }
+      ]
+    },
+    {
+      "_id": "buffet",
+      "nummer": "02",
+      "ueberschriftKlein": "BILLIGERE LEBERKÄSSEMMEL",
+      "titel": "Preissenkung und Veränderung am Schulbuffet",
+      "kurzfassung": "Billigere Leberkässemmel. Pizzaschnitten comeback",
+      "absaetze": [
+        "Ja, ihr habt richtig gelesen: Preissenkung beim Schulbuffet. Ich werde mich unironisch dafür einsetzen und sehen, was ich ändern kann, damit ihr eine billigere Leberkässemmel bekommt.",
+        "Auch eine Änderung wäre angemessen, besonders am Donnerstag. Die Veteranen unter uns erinnern sich vielleicht noch daran, als es donnerstags Pizzaschnitten gab. Ich würde mich gerne dafür einsetzen, dass es wieder so etwas gibt, oder euch, die lieben Schüler, fragen, was ihr gerne auf dem Speiseplan sehen würdet. Was mich zum nächsten Punkt bringt."
+      ]
+    },
+    {
+      "_id": "transparenz",
+      "nummer": "03",
+      "ueberschriftKlein": "TRANSPARENZ & DEMOKRATIE",
+      "titel": "Transparenz und Demokratie",
+      "kurzfassung": "Mehr Umfragen. Jedes Anliegen wird gelesen.",
+      "absaetze": [
+        "Ich möchte wirklich für euch alle da sein. Ich möchte nicht nächstes oder übernächstes Jahr von irgendwem hören: „Das hättest du besser machen können“ oder „Vielleicht hättest du das so machen können, Sushi!“",
+        "Nein, absolut nicht. Ich möchte, dass es jetzt besser ist. Ich möchte jetzt mein Bestes für euch tun.",
+        "Ich werde dafür sorgen, dass es mehr Umfragen in der Schule sowie in den Klassen gibt, zu Wünschen, Verbesserungsvorschlägen und Anliegen. Ich werde mir jedes Anliegen durchlesen und anschauen, was man davon durchsetzen kann und was nicht. Man muss leider realistisch bleiben."
+      ]
+    },
+    {
+      "_id": "social-media",
+      "nummer": "04",
+      "ueberschriftKlein": "WENIGER AI-SLOP, MEHR SCHÜLER",
+      "titel": "HTL Social Media verbessern",
+      "kurzfassung": "Echte Schülerprojekte statt tanzender AI Iron Mans.",
+      "absaetze": [
+        "AI Iron Mans, die in der Schulaula tanzen. Was zum Fick ist das?",
+        "Ich kenne mehr als zehn Schüler, die gerade auf diese Schule gehen und echte Kunst, Musik, Videospiele oder Software machen, keinen Facebook AI Slop.",
+        "Ich möchte die Reichweite der HTL HL nutzen, um diese Leute und Projekte zu promoten. Die ganzen netten Bilder von Ausflügen sind schön, aber wen sprechen die an? Mama Trude und Tante Helga?",
+        "Natürlich kann und sollte man auch die Social Media-Kanäle der Schülervertretung benutzen, um solche Sachen zu promoten aber ich denke, dass die Schule auch ihren Fair Share leisten sollte."
+      ]
+    },
+    {
+      "_id": "holi",
+      "nummer": "05",
+      "ueberschriftKlein": "HOLI 2.0",
+      "titel": "Eine zentrale Test und Skriptum Website für die Schule",
+      "kurzfassung": "Tests und Skripten hochladen und teilen. Keine Mega Links mehr.",
+      "absaetze": [
+        "„Die Zeit ist zu Ende, in der man Google /Mega Links immer teilen muss“, meinte unser guter alter Bauer. Leider hat der Bauer nicht daran gedacht, dass irgendwer die Website am Leben halten muss, nachdem man die Schule verlässt.",
+        "Mein Plan ist es, eine neue Webpage ins Leben zu rufen, die wie Holi sein wird. Man kann Tests sowie Skripten hochladen und mit anderen Schülern teilen."
+      ]
+    },
+    {
+      "_id": "sushi-promise",
+      "nummer": "06",
+      "ueberschriftKlein": "DER SUSHI PROMISE",
+      "titel": "Der Sushi Promise",
+      "kurzfassung": "Jedes nicht umgesetzte Versprechen = ein Tritt. Egal, wie hart.",
+      "absaetze": [
+        "Ich, Benjamin Suljic, verspreche hiermit, während meiner Amtszeit alles in meiner Macht Stehende zu unternehmen, um die oben angeführten Punkte umzusetzen und meine gegebenen Versprechen bestmöglich einzuhalten.",
+        "Sollte es mir bis zum Ende meiner Amtszeit nicht gelingen, einzelne dieser Vorhaben umzusetzen, stelle ich mich selbstverständlich der Verantwortung für meine nicht erfüllten Versprechen.",
+        "Und weil ein Versprechen auch Konsequenzen haben sollte: Für jedes meiner Versprechen, das bis zu meinem Amtsende nicht umgesetzt wurde (außer jene, die von der Schule höchstpersönlich abgesagt wurden), erhält jeder Schüler und jede Schülerin der HTL Hollabrunn, der bzw. die im Schuljahr 2026/27 diese Schule besucht hat, das Recht, mir dafür einen Tritt in die Eier zu verpassen."
+      ]
+    }
+  ]
+}

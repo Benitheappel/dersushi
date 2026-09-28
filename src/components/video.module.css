@@ -1,0 +1,104 @@
+.name {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.screen {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  margin: 3px;
+  background: #000;
+  box-shadow: var(--sunken);
+  overflow: hidden;
+}
+
+.fill {
+  position: absolute;
+  inset: 2px;
+  width: calc(100% - 4px);
+  height: calc(100% - 4px);
+  border: 0;
+}
+
+.consent {
+  gap: 12px;
+  padding: 16px;
+  text-align: center;
+}
+
+.consent p {
+  max-width: 38ch;
+  padding: 6px 10px;
+  font-size: 12.5px;
+  line-height: 1.45;
+  background: rgba(0, 0, 0, 0.75);
+  color: #fff;
+}
+
+.static {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  background-color: #1a1a18;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.2' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.55'/%3E%3C/svg%3E"),
+    repeating-linear-gradient(0deg, rgba(0, 0, 0, 0.35) 0 2px, transparent 2px 4px);
+}
+
+.player:hover .static {
+  animation: static 0.4s steps(4) infinite;
+}
+
+@keyframes static {
+  0% { background-position: 0 0, 0 0; }
+  25% { background-position: -40px 30px, 0 1px; }
+  50% { background-position: 60px -20px, 0 2px; }
+  75% { background-position: -20px -50px, 0 3px; }
+}
+
+.noSignal {
+  font-family: var(--f-pixel);
+  font-weight: 700;
+  font-size: clamp(26px, 4vw, 40px);
+  color: #fff;
+  text-shadow: 2px 2px 0 #000;
+}
+
+.soon {
+  padding: 2px 8px;
+  font-size: 12px;
+  background: #000;
+  color: #fff;
+}
+
+.rec {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  font-size: 11px;
+  font-weight: 700;
+  color: #ff3030;
+  animation: blink 1.2s steps(2) infinite;
+  pointer-events: none;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
+
+.info {
+  padding: 8px 8px 6px;
+}
+
+.title {
+  font-family: var(--f-pixel);
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.desc {
+  margin-top: 2px;
+  font-size: 13px;
+}

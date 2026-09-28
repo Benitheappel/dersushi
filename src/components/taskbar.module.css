@@ -1,0 +1,123 @@
+.taskbar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 600;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  height: var(--taskbar-h);
+  padding: 4px 3px 3px;
+  background: var(--win);
+  box-shadow: inset 0 1px var(--win-light), inset 0 2px var(--win-hi);
+  font-size: 13px;
+}
+
+.start {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  height: 100%;
+  padding: 0 8px;
+  font-weight: 700;
+  box-shadow: var(--raised);
+}
+
+.start[data-open],
+.start:active {
+  box-shadow: var(--pressed);
+}
+
+.divider {
+  width: 2px;
+  height: 100%;
+  margin: 0 2px;
+  box-shadow: inset 1px 0 var(--win-shadow), inset -1px 0 var(--win-hi);
+}
+
+.task {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-width: 0;
+  max-width: 220px;
+  height: 100%;
+  padding: 0 10px;
+  font-weight: 700;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  box-shadow: var(--pressed);
+  background: repeating-conic-gradient(var(--win) 0% 25%, var(--win-hi) 0% 50%) 0 0 / 2px 2px;
+}
+
+.tray {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  height: 100%;
+  margin-left: auto;
+  padding: 0 10px;
+  box-shadow: inset -1px -1px var(--win-hi), inset 1px 1px var(--win-shadow);
+  font-variant-numeric: tabular-nums;
+}
+
+.menu {
+  position: absolute;
+  left: 2px;
+  bottom: calc(var(--taskbar-h) - 2px);
+  display: flex;
+  min-width: 260px;
+  background: var(--win);
+  box-shadow: var(--raised);
+  padding: 3px;
+}
+
+.banner {
+  display: flex;
+  align-items: flex-end;
+  width: 26px;
+  padding: 6px 0;
+  background: linear-gradient(0deg, var(--title-a), var(--title-b));
+  color: var(--win-light);
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}
+
+.menu nav {
+  flex: 1;
+}
+
+.menuItem {
+  display: flex;
+  flex-direction: column;
+  padding: 7px 14px 7px 10px;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.menuItem:hover,
+.menuItem:focus-visible {
+  background: var(--select);
+  color: #fff;
+  outline: none;
+}
+
+.menuLabel {
+  font-weight: 700;
+}
+
+.menuHint {
+  font-size: 11.5px;
+  opacity: 0.75;
+}
+
+@media (max-width: 480px) {
+  .task {
+    display: none;
+  }
+}

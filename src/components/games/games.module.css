@@ -1,0 +1,63 @@
+.hud {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 6px 2px;
+  font-size: 13px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.alarm {
+  color: #ff5050;
+  font-weight: 700;
+}
+
+.dodgeArena {
+  position: relative;
+  height: clamp(360px, 58vh, 600px);
+  background: var(--ink);
+  box-shadow: var(--sunken);
+  overflow: hidden;
+}
+
+.dodgeArena[data-playing] {
+  touch-action: none;
+  cursor: crosshair;
+}
+
+.canvas {
+  width: 100%;
+  height: 100%;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 24px;
+  text-align: center;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.big {
+  font-family: var(--f-pixel);
+  font-weight: 700;
+  font-size: clamp(28px, 5vw, 52px);
+  line-height: 1.1;
+}
+
+.verdict {
+  font-family: var(--f-pixel);
+  font-size: clamp(17px, 2.2vw, 22px);
+}
+
+.hint {
+  font-size: 13px;
+  opacity: 0.8;
+}

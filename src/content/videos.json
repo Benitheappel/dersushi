@@ -1,0 +1,34 @@
+[
+  {
+    "nummer": "001",
+    "titel": "DER WAHLKAMPF BEGINNT",
+    "beschreibung": "",
+    "youtubeId": "",
+    "dauer": "",
+    "_groesse": "xl"
+  },
+  {
+    "nummer": "002",
+    "titel": "DAS WAR EINE SCHLECHTE IDEE",
+    "beschreibung": "",
+    "youtubeId": "",
+    "dauer": "",
+    "_groesse": "m"
+  },
+  {
+    "nummer": "003",
+    "titel": "",
+    "beschreibung": "",
+    "youtubeId": "",
+    "dauer": "",
+    "_groesse": "s"
+  },
+  {
+    "nummer": "004",
+    "titel": "",
+    "beschreibung": "",
+    "youtubeId": "",
+    "dauer": "",
+    "_groesse": "l"
+  }
+]

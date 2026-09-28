@@ -1,0 +1,198 @@
+.window {
+  display: flex;
+  flex-direction: column;
+  width: min(1040px, calc(100% - 48px));
+  min-height: calc(100svh - var(--taskbar-h) - 48px);
+  margin: 24px auto calc(var(--taskbar-h) + 24px);
+  background: var(--win);
+  box-shadow: var(--raised), 4px 4px 0 rgba(0, 0, 0, 0.25);
+  padding: 3px;
+}
+
+.window[data-maximised] {
+  width: 100%;
+  min-height: calc(100svh - var(--taskbar-h));
+  margin: 0 0 var(--taskbar-h);
+  box-shadow: var(--raised);
+}
+
+.titlebar {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  min-height: 26px;
+}
+
+.appIcon {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 18px;
+}
+
+.title {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.controls {
+  display: inline-flex;
+  flex: none;
+  gap: 2px;
+}
+
+.controls button {
+  position: relative;
+  width: 18px;
+  height: 16px;
+  background: var(--win);
+  color: var(--text);
+  box-shadow: var(--raised);
+}
+
+.controls button:active {
+  box-shadow: var(--pressed);
+}
+
+.controls button:last-child {
+  margin-left: 2px;
+}
+
+.icoMin,
+.icoMax,
+.icoRestore,
+.icoClose {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.icoMin::after {
+  content: "";
+  width: 6px;
+  height: 2px;
+  margin-top: 6px;
+  background: var(--text);
+}
+
+.icoMax::after {
+  content: "";
+  width: 8px;
+  height: 7px;
+  border: 1px solid var(--text);
+  border-top-width: 2px;
+}
+
+.icoRestore::after {
+  content: "";
+  width: 6px;
+  height: 5px;
+  border: 1px solid var(--text);
+  border-top-width: 2px;
+  box-shadow: 2px -2px 0 -1px var(--win), 2px -2px 0 0 var(--text);
+}
+
+.menubar {
+  padding: 2px 0;
+  border-bottom: 1px solid var(--win-shadow);
+  box-shadow: 0 1px 0 var(--win-hi);
+}
+
+.menubar ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menuItem {
+  display: block;
+  padding: 3px 9px;
+  color: var(--text);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.menuItem:hover,
+.menuItem:focus-visible {
+  background: var(--select);
+  color: #fff;
+  outline: none;
+}
+
+.menuItem[aria-current="page"] {
+  box-shadow: var(--pressed);
+}
+
+.menuItem[aria-current="page"]:hover {
+  box-shadow: none;
+}
+
+.accel {
+  text-decoration: underline;
+}
+
+.client {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-top: 3px;
+}
+
+.content {
+  flex: 1;
+  padding: 22px clamp(12px, 3vw, 28px) 28px;
+}
+
+.window[data-maximised] .content {
+  padding: 0;
+}
+
+.statusbar {
+  display: flex;
+  gap: 3px;
+  margin-top: 3px;
+  font-size: 12px;
+}
+
+.statusCell {
+  padding: 2px 8px;
+  box-shadow: inset -1px -1px var(--win-hi), inset 1px 1px var(--win-shadow);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.statusCell:first-child {
+  flex: 0 0 auto;
+  min-width: 90px;
+}
+
+.statusCell:last-child {
+  flex: 1;
+  min-width: 0;
+}
+
+@media (max-width: 700px) {
+  .window {
+    width: 100%;
+    min-height: calc(100svh - var(--taskbar-h));
+    margin: 0 0 var(--taskbar-h);
+    box-shadow: var(--raised);
+  }
+
+  .menubar ul {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .menuItem {
+    padding: 6px 10px;
+  }
+}

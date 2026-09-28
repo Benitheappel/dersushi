@@ -1,0 +1,455 @@
+{
+  "ueberall": {
+    "browserTitel": "SUSHI — kandidiert als Schulsprecher",
+    "browserTitelAnhang": " — SUSHI 2026",
+    "beschreibungFuerGoogle": "Benjamin \"Sushi\" Suljic kandidiert als Schulsprecher an der HTL Hollabrunn.",
+    "zumInhaltSpringen": "Zum Inhalt springen",
+    "fensterTitel": "sushi.exe - Benjamin „Sushi“ Suljic für Schulsprecher",
+    "navigation": {
+      "start": {
+        "name": "Start",
+        "vorschau": "der Anfang. vermutlich."
+      },
+      "ueberMich": {
+        "name": "Über mich",
+        "vorschau": "eine Datenbank mit genau einem (1) Typen"
+      },
+      "versprechen": {
+        "name": "Versprechen",
+        "vorschau": "die echte Agenda. die hier bitte lesen."
+      },
+      "videos": {
+        "name": "Videos (coming soon)",
+        "vorschau": "Videomaterial. angeblich."
+      },
+      "spiele": {
+        "name": "Spiele",
+        "vorschau": "In den Stunden produktiv sein"
+      },
+      "wettbewerb": {
+        "name": "Wettbewerb",
+        "vorschau": "Verunstalte mich und gewinne"
+      },
+      "eierZerstoerer": {
+        "name": "Eier-Zerstörer",
+        "vorschau": "klicken nicht kicken"
+      }
+    },
+    "statusleiste": [
+      "Bereit",
+      "Diese Website hat mich 4€ gekostet."
+    ],
+    "taskleisteStart": "Start",
+    "startMenueBanner": "SUSHI 98",
+    "uhrOrt": "WIEN",
+    "meldungMinimieren": "Minimieren geht nicht. Die Schule braucht mich.",
+    "meldungSchliessen": "Netter Versuch. Das Fenster bleibt offen.",
+    "fusszeile": [
+      "0 % STAATLICHE FÖRDERUNG",
+      "GEMACHT MIT FRAGWÜRDIGEN ENTSCHEIDUNGEN",
+      "ICH WERDE NICHT DIE WANDKÜSSEN"
+    ],
+    "fusszeileGeheimnisHinweis": [
+      "psst, diese Website hat Geheimnisse.",
+      "sie sind nicht wichtig. genau das ist der Punkt...",
+      "aber du kannst gerne deine Zeit verschwenden!"
+    ],
+    "fusszeileKandidat": "Kandidat",
+    "fusszeileSchuljahr": "Schuljahr",
+    "zufallsZitat": "Schau, wie viel Arbeit ich in diese Website gepackt habe. Schau mal, wie viel Arbeit ich in unsere Schule stecken kann!",
+    "meldungLogo4x": "warum klickst du aufs Logo?",
+    "meldungLogo7x": "woah",
+    "meldungSushiGetippt": "ja. das bin ich. servas",
+    "meldungKonami": "Cheat aktiviert: unendlich Sushi.",
+    "platzhalterFehlt": "DATEN FOLGEN",
+    "fusszeileDatenschutz": "Datenschutz",
+    "fusszeileImpressum": "Impressum"
+  },
+  "start": {
+    "willkommen": "Willkommen!",
+    "vorstellungSaetze": [
+      "Mein Name ist Benjamin „Sushi“ Suljic und ich bin fett.",
+      "Ich möchte Schulsprecher werden.",
+      "„Wieso?“, fragst du dich sicher."
+    ],
+    "vorstellungLink": "Hier hast du die Antwort.",
+    "legalSatz": "Anscheinend darf ich das ganz legal :)",
+    "versprechenUeberschrift": "Die Agenda — 6 Versprechen",
+    "versprechenAllesLesen": "Alle Versprechen lesen →",
+    "steckbriefUeberschrift": "Steckbrief",
+    "faktenName": "Name",
+    "faktenKlasse": "Klasse",
+    "faktenSchule": "Schule",
+    "faktenSchuljahr": "Schuljahr",
+    "faktenKandidatur": "Kandidatur",
+    "faktenStatus": "Status",
+    "faktenStatusWert": "100 % ECHTER KANDIDAT",
+    "zitatQuelle": "— DER KANDIDAT, VERMUTLICH UM 2 UHR NACHTS",
+    "mehrUeberschrift": "Sonst noch hier"
+  },
+  "ueberMich": {
+    "browserTitel": "Über mich",
+    "ueberschrift": "Eigenschaften von Benjamin Suljic",
+    "untertitel": "Eine Datenbank mit genau einem (1) Typen.",
+    "reiterAllgemein": "Allgemein",
+    "quelleWort": "quelle",
+    "felder": {
+      "name": {
+        "titel": "Name",
+        "quelle": "offiziell, angeblich"
+      },
+      "spitzname": {
+        "titel": "Alias",
+        "quelle": "alle"
+      },
+      "schule": {
+        "titel": "Schule",
+        "quelle": "Schulakten"
+      },
+      "klasse": {
+        "titel": "Klasse",
+        "quelle": "ausständig"
+      },
+      "alter": {
+        "titel": "Alter",
+        "quelle": "ausständig"
+      },
+      "status": {
+        "titel": "Status",
+        "quelle": "die Regeln, anscheinend"
+      },
+      "selbstbeschreibung": {
+        "titel": "Selbstbeschreibung",
+        "quelle": "Selbstauskunft, wörtlich"
+      },
+      "interessen": {
+        "titel": "Interessen",
+        "quelle": "ausständig"
+      },
+      "hobbies": {
+        "titel": "Hobbies",
+        "quelle": "ausständig"
+      },
+      "faehigkeiten": {
+        "titel": "Fähigkeiten",
+        "quelle": "ausständig"
+      },
+      "schwaechen": {
+        "titel": "Schwächen",
+        "quelle": "ausständig"
+      },
+      "charakter": {
+        "titel": "Charakter",
+        "quelle": "ausständig"
+      },
+      "zufallsfakt": {
+        "titel": "Zufallsfakt",
+        "quelle": "ausständig"
+      }
+    },
+    "statusWert": "Darf irgendwie als Schulsprecher kandidieren.",
+    "zufallsfaktHinweis": "",
+    "beweisstueck": "",
+    "top10": "Top 10",
+    "top10Untertitel": "Arten, wie Lehrer meinen Namen verkackt haben",
+    "richtigTitel": "Die korrekte Aussprache",
+    "richtigName": "SULJIC",
+    "richtigSatz": "(Sul-jitsch). Ihr schafft das",
+    "weiterKnopf": "Weiter zu den Versprechen →"
+  },
+  "versprechenSeite": {
+    "browserTitel": "Versprechen",
+    "ueberschrift": "Meine sehr ernste politische Agenda",
+    "untertitel": "Die Inhalte hier sind ernst gemeint. Die Formatierung nicht.",
+    "detailsFolgen": "DETAILS FOLGEN",
+    "dokumentName": "SUSHI-PROMISE.TXT - Editor",
+    "aktenzeichen": "AKTENZEICHEN: SUSHI-2026-EIER",
+    "grossNachVersprechen6": "Egal, wie hart.",
+    "unterschriftZeile": "BENJAMIN SULJIC — KANDIDAT, BESITZER DER BETROFFENEN EIER",
+    "sieheAuchKnopf": "Siehe auch: Eier-Zerstörer →"
+  },
+  "videos": {
+    "browserTitel": "Videos",
+    "ueberschrift": "Videos",
+    "untertitel": "Bewegte Bilder einer Person, die Schulsprecher werden will. Drüberfahren, um nach Signal zu suchen.",
+    "baenderGefunden": "BÄNDER GEFUNDEN",
+    "nochInProduktion": "NOCH IN PRODUKTION",
+    "budget": "BUDGET: 0,00 €",
+    "keinSignal": "KEIN SIGNAL",
+    "materialFolgt": "MATERIAL FOLGT",
+    "aufnahme": "● AUFNAHME",
+    "ladenHinweis": "Zum Abspielen wird das Video von YouTube geladen. Dabei werden Daten (z. B. deine IP-Adresse) an YouTube/Google übertragen.",
+    "ladenKnopf": "Video laden"
+  },
+  "spiele": {
+    "browserTitel": "Spiele",
+    "ueberschrift": "Spiele",
+    "untertitel": "Eine kleine interaktive Ablenkung. Gebaut, statt Hausübung zu machen.",
+    "spielTitel": "WEICH DEN DEADLINES AUS",
+    "spielUntertitel": "Eine realistische Simulation des HTL-Alltags.",
+    "soGehts": "SO GEHT'S: Maus, Finger oder Pfeiltasten. Nichts berühren.",
+    "steuerung": "STEUERUNG: MAUS / FINGER / ← →",
+    "startKnopf": "LOS GEHT'S",
+    "nochmalKnopf": "NOCHMAL",
+    "ueberlebt": "ÜBERLEBT:",
+    "rekord": "REKORD:",
+    "erwischtVon": "ERWISCHT VON:",
+    "spielerFigur": "DU",
+    "fallendeWoerter": [
+      "DEADLINE",
+      "ABGABE",
+      "TEST",
+      "SCHULARBEIT",
+      "PROTOKOLL",
+      "REFERAT",
+      "HÜ",
+      "LABORBERICHT",
+      "DIPLOMARBEIT"
+    ],
+    "urteilUnter5Sekunden": "Da fehlt noch Übung.",
+    "urteilUnter15Sekunden": "Average HTL student.",
+    "urteilUnter30Sekunden": "Verdächtig gut. Hast du überhaupt Hausübungen?",
+    "urteilAb30Sekunden": "Du solltest Schulsprecher werden. (Posten schon vergeben.)"
+  },
+  "wettbewerb": {
+    "browserTitel": "Wettbewerb",
+    "ueberschrift": "Verunstalte mich!",
+    "untertitel": "Such dir eines meiner Fotos aus, mach es so schlimm wie möglich und schick es ein. Das beste Bild gewinnt einen Preis.",
+    "regelnUeberschrift": "So geht’s",
+    "regeln": [
+      "Wähle eines der 3 Fotos aus.",
+      "Verunstalte es mit den Werkzeugen: malen, ausschneiden, aufblasen, Text, Sticker, eigene Bilder …",
+      "Klick auf „Einsenden…“, signiere mit deinem Namen und gib deine E-Mail an. Jede Person darf nur einmal einsenden.",
+      "Ich schaue mir jede Einsendung an. Die besten kommen in die Hall of Fame, das beste gewinnt."
+    ],
+    "preisUeberschrift": "Preis",
+    "preis": "",
+    "einsendeschlussUeberschrift": "Einsendeschluss",
+    "einsendeschluss": "",
+    "regelnHinweis": "Nichts Beleidigendes, nichts Unangemessenes und keine Fotos anderer Personen. Solche Einsendungen werden gelöscht.",
+    "datenschutz": "Deine E-Mail-Adresse wird nie veröffentlicht. Sie dient nur dazu, dass jede Person einmal teilnimmt, und um Gewinner zu kontaktieren. Details stehen in der Datenschutzerklärung.",
+    "galerieUeberschrift": "Hall of Fame",
+    "galerieLeer": "Noch keine Bilder freigegeben. Sei der Erste!",
+    "galerieNichtVerbunden": "Die Hall of Fame ist noch nicht verbunden.",
+    "galerieFehler": "Die Hall of Fame konnte nicht geladen werden.",
+    "platz": "Platz",
+    "anonym": "Anonym",
+    "einsendenUeberschrift": "Bild einsenden",
+    "nameFeld": "Künstlername (Pflicht, wird als Signatur ins Bild geschrieben und in der Hall of Fame gezeigt)",
+    "klasseFeld": "Klasse (optional)",
+    "einverstanden": "Ich habe die Datenschutzerklärung gelesen und willige ein, dass mein Bild mit meinem Künstlernamen (und meiner Klasse, falls angegeben) auf dieser Website veröffentlicht werden darf und meine E-Mail-Adresse wie beschrieben verarbeitet wird. Ich kann die Einwilligung jederzeit widerrufen.",
+    "absendenKnopf": "Absenden",
+    "abbrechenKnopf": "Abbrechen",
+    "sendet": "Wird gesendet…",
+    "gesendet": "Eingesendet! Ich schaue es mir an – wenn es gut ist, landet es in der Hall of Fame.",
+    "sendeFehler": "Das hat nicht geklappt. Versuch es gleich nochmal.",
+    "nichtAktiv": "Einsendungen sind noch nicht freigeschaltet. Du kannst dein Bild aber schon mit „Speichern“ herunterladen.",
+    "datenschutzLink": "Datenschutzerklärung lesen",
+    "emailFeld": "E-Mail-Adresse (Pflicht, wird nicht veröffentlicht)",
+    "mindestalter": "Ich bin mindestens 14 Jahre alt oder meine Eltern sind einverstanden.",
+    "vorschauHinweis": "So wird dein Bild eingereicht (komprimiert, mit Signatur):",
+    "pruefeName": "Bitte einen Künstlernamen mit 2–40 Zeichen eingeben.",
+    "pruefeEmail": "Bitte eine gültige E-Mail-Adresse eingeben.",
+    "schonTeilgenommen": "Mit dieser E-Mail-Adresse wurde schon eingesendet. Jede Person darf nur einmal teilnehmen.",
+    "schonTeilgenommenGeraet": "Von diesem Gerät wurde schon ein Bild eingesendet. Jede Person darf nur einmal teilnehmen.",
+    "ungueltig": "Da stimmt etwas mit deinen Angaben nicht. Bitte prüfe Name und E-Mail."
+  },
+  "eierZerstoerer": {
+    "browserTitel": "Eier-Zerstörer",
+    "warnband": "⚠ EIER-SICHERHEITSSYSTEM AKTIV ⚠ KEINE PANIK ⚠ DAS IST EINE WEBSITE FÜR EINE SCHULSPRECHERWAHL ⚠ ZUTRITT NUR FÜR BEFUGTE ⚠ JA, DAS IST NOTWENDIG ⚠",
+    "warnbandNachAblauf": "⚠ EIER-SICHERHEITSSYSTEM OFFLINE ⚠ ZU SPÄT ⚠ ES IST PASSIERT ⚠",
+    "akte": "AKTE 05 / GEHEIM / NICHT KLICKEN (ZU SPÄT)",
+    "ueberschrift": "EIER-ZERSTÖRER",
+    "ueberschriftNachAblauf": "EIER ZERSTÖRT.",
+    "unterzeileKlein": "DER FINALE COUNTDOWN.",
+    "unterzeileKleinNachAblauf": "DIE EIER WURDEN ZERSTÖRT.",
+    "unterzeileGross": "Meine Eier sind derzeit sicher.",
+    "unterzeileGrossNachAblauf": "Es ist passiert. Es ist wirklich passiert.",
+    "einheiten": [
+      "TAGE",
+      "STUNDEN",
+      "MINUTEN",
+      "SEKUNDEN"
+    ],
+    "satzUnterTimer": "Meine Eier sind bis zu dieser Zeit sicher.",
+    "fussnote": "*siehe Versprechen 06",
+    "nachAblaufGross": "DIE EIER WURDEN ZERSTÖRT.",
+    "nachAblaufSatz": "Meine Eier waren bis zu dieser Zeit sicher.",
+    "nachAblaufKnopf": "ZERSTÖRUNG WIEDERHOLEN",
+    "statusSystem": "EIER-SICHERHEITSSYSTEM",
+    "statusSystemAktiv": "⚠ AKTIV",
+    "statusSystemAus": "OFFLINE",
+    "statusTitel": "STATUS",
+    "statusSicher": "SICHER",
+    "statusZerstoert": "ZERSTÖRT",
+    "bedrohungsstufe": "BEDROHUNGSSTUFE",
+    "integritaet": "HODEN-INTEGRITÄT",
+    "integritaetWert": "100%",
+    "systemmeldung": "SYSTEMMELDUNG",
+    "sprueche": {
+      "mehrAls7Tage": "Alles ist vermutlich in Ordnung.",
+      "mehrAls3Tage": "Langsam mache ich mir Sorgen.",
+      "mehrAls24Stunden": "Das ist keine Übung.",
+      "mehrAls6Stunden": "Warum hab ich das gemacht?",
+      "mehrAls1Stunde": "OH NEIN.",
+      "mehrAls10Minuten": "DAS IST SEHR SCHLECHT.",
+      "mehrAls1Minute": "AUF WIEDERSEHEN.",
+      "letzteMinute": "3… 2… 1…",
+      "nachAblauf": "ES IST PASSIERT."
+    },
+    "zielWien": "ZIEL (WIEN)",
+    "zielDeineUhr": "ZIEL (DEINE UHR)",
+    "naechsteGlocke": "NÄCHSTE GLOCKE IN",
+    "naechsteGlockeNie": "NIE WIEDER",
+    "tonAus": "TON: AUS — GLOCKE AKTIVIEREN",
+    "tonAn": "TON: AN",
+    "tonBlockiert": "TON: AN — VOM BROWSER BLOCKIERT",
+    "tonKlickNoetig": "TON: AN — IRGENDWO KLICKEN ZUM SCHARFSCHALTEN",
+    "glockeTesten": "GLOCKE TESTEN",
+    "glockeErlauben": "GLOCKE ERLAUBEN",
+    "tonHinweis": "Die Glocke läutet einmal zu jeder vollen Countdown Stunde. Dein Browser will vorher einen Klick.",
+    "keinePanik": "KEINE PANIK."
+  },
+  "wieso": {
+    "browserTitel": "Wieso?",
+    "kopfzeile": "WIESO? — ANTWORT.EXE",
+    "ueberschrift": [
+      "LADE",
+      "DIE ANTWORT"
+    ],
+    "ladeMeldungen": [
+      "Lade Gründe…",
+      "Frage die Direktion…",
+      "Kompiliere Argumente (0 gefunden)",
+      "Grund gefunden!!!!",
+      " Grund verloren...",
+      "Fast fertig!!!",
+      "Bitte nicht neu laden. Hilft eh nicht",
+      "Hast du gewusst dass das Nice Price Menü mal 4€ war",
+      "Wer lernt die E12 Reihe noch asuwending?",
+      "ChatGPT mache mir eine Website die alle lieben werden",
+      "U R MR GAY",
+      "Hey Mira schreib mir zurück",
+      "throw NullPointerException",
+      "FAST FERTIG!!!!"
+    ],
+    "tipp": "Tipp: Die Versprechen laden schneller,",
+    "tippLink": "also drücke einfach diesen Link mit deinem Fingerchen",
+    "aufgeben": "← AUFGEBEN (Loser)",
+    "abbrechenKnopf": "Abbrechen"
+  },
+  "datenschutzSeite": {
+    "browserTitel": "Datenschutz",
+    "ueberschrift": "Datenschutzerklärung",
+    "verantwortlicher": "Benjamin Suljic",
+    "ort": "Hollabrunn",
+    "kontaktEmail": "benjamin.suljic@it.htl-hl.ac.at",
+    "hosting": "GitHub Pages (GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA)",
+    "supabaseRegion": "Frankfurt (EU)",
+    "loeschfrist": "spätestens ein Tag nach Ende des Wettbewerbs",
+    "stand": "28.09.2026",
+    "abschnitte": [
+      {
+        "titel": "1. Verantwortlicher",
+        "absaetze": [
+          "Verantwortlich für diese Website ist {verantwortlicher}, {ort}. Kontakt: {kontaktEmail}."
+        ]
+      },
+      {
+        "titel": "2. Allgemeines",
+        "absaetze": [
+          "Diese Website ist eine private, nicht-kommerzielle Website zu meiner Kandidatur als Schulsprecher an der HTL Hollabrunn. Ich verarbeite personenbezogene Daten nur, soweit das für den Betrieb der Website und für den Wettbewerb nötig ist.",
+          "Es gibt kein Tracking, keine Analyse-Tools, keine Werbung und keine Cookies."
+        ]
+      },
+      {
+        "titel": "3. Hosting und Server-Logfiles",
+        "absaetze": [
+          "Die Website wird bei {hosting} betrieben. Beim Aufruf verarbeitet der Hosting-Anbieter technisch notwendige Daten wie IP-Adresse, Zeitpunkt, aufgerufene Seite und Browser-Informationen, um die Website auszuliefern und abzusichern. GitHub speichert dabei laut eigenen Angaben die IP-Adressen der Besucher aus Sicherheitsgründen, auch wenn du kein GitHub-Konto hast.",
+          "GitHub ist ein Unternehmen mit Sitz in den USA. Deine Daten können dabei in die USA übermittelt werden. Die Übermittlung stützt sich auf den Angemessenheitsbeschluss der EU-Kommission zum EU-US Data Privacy Framework (Art. 45 DSGVO), unter dem GitHub zertifiziert ist, und ergänzend auf EU-Standardvertragsklauseln (Art. 46 Abs. 2 lit. c DSGVO). Datenschutzerklärung von GitHub: https://docs.github.com/de/site-policy/privacy-policies/github-general-privacy-statement",
+          "Rechtsgrundlage ist mein berechtigtes Interesse an einem sicheren Betrieb (Art. 6 Abs. 1 lit. f DSGVO). Die Speicherdauer richtet sich nach dem Hosting-Anbieter."
+        ]
+      },
+      {
+        "titel": "4. Schriftarten",
+        "absaetze": [
+          "Alle Schriftarten werden direkt von dieser Website geladen. Es wird keine Verbindung zu Google Fonts oder anderen Anbietern aufgebaut."
+        ]
+      },
+      {
+        "titel": "5. Speicher in deinem Browser",
+        "absaetze": [
+          "Einige Funktionen speichern kleine Einstellungen nur in deinem Browser (localStorage): die Ton-Einstellung und die zuletzt geläutete Stunde beim Eier-Zerstörer, deinen Rekord im Spiel und den Vermerk, dass du beim Wettbewerb schon teilgenommen hast.",
+          "Diese Daten verlassen deinen Browser nicht und werden nicht an mich übertragen. Sie sind für die von dir genutzte Funktion erforderlich (§ 165 Abs. 3 TKG 2021). Du kannst sie jederzeit in deinen Browser-Einstellungen löschen."
+        ]
+      },
+      {
+        "titel": "6. Videos von YouTube",
+        "absaetze": [
+          "Videos werden erst geladen, wenn du auf „Video laden“ klickst. Vorher wird keine Verbindung zu YouTube aufgebaut. Nach dem Klick lädt das Video von YouTube (Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland) im erweiterten Datenschutzmodus (youtube-nocookie.com). Dabei werden Daten wie deine IP-Adresse an YouTube/Google übertragen, auch in die USA.",
+          "Rechtsgrundlage ist deine Einwilligung durch den Klick (Art. 6 Abs. 1 lit. a DSGVO). Datenschutzerklärung von Google: https://policies.google.com/privacy"
+        ]
+      },
+      {
+        "titel": "7. Wettbewerb „Verunstalte mich!“",
+        "absaetze": [
+          "Wenn du ein Bild einsendest, verarbeite ich: dein Bild, deinen Künstlernamen, deine E-Mail-Adresse, optional deine Klasse und den Zeitpunkt der Einsendung.",
+          "Zweck: Durchführung des Wettbewerbs, Veröffentlichung ausgewählter Bilder mit Künstlernamen (und Klasse, falls angegeben) in der Hall of Fame, Sicherstellung, dass jede Person nur einmal teilnimmt, und Kontaktaufnahme mit den Gewinnern. Deine E-Mail-Adresse wird nie veröffentlicht und nicht an andere weitergegeben.",
+          "Rechtsgrundlage ist deine Einwilligung (Art. 6 Abs. 1 lit. a DSGVO). Du kannst sie jederzeit per E-Mail an {kontaktEmail} widerrufen; dann lösche ich deine Einsendung. Die Teilnahme ist ab 14 Jahren erlaubt (§ 4 Abs. 4 DSG), jünger nur mit Zustimmung der Eltern.",
+          "Die Einsendungen werden bei Supabase Inc. gespeichert (Rechenzentrum: {supabaseRegion}), die als Auftragsverarbeiter nach Art. 28 DSGVO für mich tätig ist. Eine Übermittlung in die USA ist dabei nicht ausgeschlossen; sie ist durch EU-Standardvertragsklauseln bzw. das EU-US Data Privacy Framework abgesichert. Die Bilder der Hall of Fame werden direkt von Supabase ausgeliefert.",
+          "Speicherdauer: Nicht veröffentlichte Einsendungen und alle E-Mail-Adressen werden {loeschfrist} gelöscht. Veröffentlichte Bilder bleiben, bis diese Website offline geht oder du deine Einwilligung widerrufst."
+        ]
+      },
+      {
+        "titel": "8. Deine Rechte",
+        "absaetze": [
+          "Du hast das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit und Widerspruch sowie das Recht, eine Einwilligung jederzeit zu widerrufen. Schreib dazu einfach an {kontaktEmail}.",
+          "Außerdem kannst du dich bei der Österreichischen Datenschutzbehörde beschweren: Barichgasse 40–42, 1030 Wien, www.dsb.gv.at."
+        ]
+      }
+    ],
+    "standText": "Stand: {stand}"
+  },
+  "impressumSeite": {
+    "browserTitel": "Impressum",
+    "ueberschrift": "Impressum",
+    "abschnitte": [
+      {
+        "titel": "Offenlegung gemäß § 25 Mediengesetz",
+        "absaetze": [
+          "Medieninhaber und Herausgeber: {verantwortlicher}, {ort}",
+          "Kontakt: {kontaktEmail}"
+        ]
+      },
+      {
+        "titel": "Grundlegende Richtung",
+        "absaetze": [
+          "Private Website zu meiner Kandidatur als Schulsprecher an der HTL Hollabrunn im Schuljahr 2026/27. Keine offizielle Website der Schule."
+        ]
+      },
+      {
+        "titel": "Haftung für Links",
+        "absaetze": [
+          "Für die Inhalte verlinkter externer Seiten sind ausschließlich deren Betreiber verantwortlich."
+        ]
+      },
+      {
+        "titel": "",
+        "absaetze": [
+          "Kannst mir jetzt nix machen SakulPedo"
+        ]
+      }
+    ]
+  },
+  "seiteNichtGefunden": {
+    "fensterTitel": "Fehler",
+    "fehler": "FEHLER 404",
+    "ueberschrift": [
+      "NICHT",
+      "GEFUNDEN.",
+      "Typisch HTL Schüler"
+    ],
+    "satz": "Diese Seite gibt es nicht. Genau wie mein Wahlkampfbudget, danke Trollmann",
+    "knopf": "ZURÜCK IN SICHERHEIT"
+  }
+}

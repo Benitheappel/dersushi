@@ -1,0 +1,14 @@
+.game {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.inner {
+  padding: 12px 10px 10px;
+}
+
+.how {
+  margin: 4px 0 8px;
+  font-size: 13px;
+  color: #333;
+}

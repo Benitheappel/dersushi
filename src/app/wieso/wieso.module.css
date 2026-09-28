@@ -1,0 +1,98 @@
+.center {
+  display: grid;
+  place-items: center;
+  min-height: 60vh;
+}
+
+.dialog {
+  width: min(480px, 100%);
+}
+
+.x {
+  display: grid;
+  place-items: center;
+  width: 18px;
+  height: 16px;
+  background: var(--win);
+  color: var(--text);
+  font-size: 10px;
+  font-weight: 700;
+  text-decoration: none;
+  box-shadow: var(--raised);
+}
+
+.body {
+  padding: 14px 16px 12px;
+}
+
+.anim {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 44px;
+  padding: 0 20px;
+}
+
+.paper {
+  position: absolute;
+  left: 58px;
+  top: 6px;
+  animation: fly 1.4s linear infinite;
+}
+
+@keyframes fly {
+  0% { transform: translate(0, 8px); opacity: 0; }
+  15% { opacity: 1; }
+  50% { transform: translate(min(150px, 30vw), -8px); }
+  85% { opacity: 1; }
+  100% { transform: translate(min(300px, 60vw), 8px); opacity: 0; }
+}
+
+.lines {
+  margin-top: 10px;
+  font-weight: 700;
+}
+
+.msg {
+  min-height: 1.5em;
+  font-size: 13px;
+}
+
+.bar {
+  height: 20px;
+  margin-top: 10px;
+  padding: 2px;
+  background: var(--field);
+  box-shadow: var(--sunken);
+}
+
+.bar > span {
+  display: block;
+  height: 100%;
+  background: repeating-linear-gradient(90deg, var(--select) 0 8px, transparent 8px 10px);
+  transition: width 0.15s linear;
+}
+
+.pct {
+  margin-top: 4px;
+  font-size: 12.5px;
+  font-variant-numeric: tabular-nums;
+}
+
+.tip {
+  margin-top: 12px;
+  font-size: 13px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 14px;
+}
+
+.giveUp {
+  margin-top: 8px;
+  font-size: 12px;
+  text-align: right;
+}

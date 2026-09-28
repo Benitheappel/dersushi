@@ -1,0 +1,44 @@
+.stack {
+  position: fixed;
+  right: 12px;
+  bottom: calc(var(--taskbar-h) + 12px);
+  z-index: 700;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 8px;
+  max-width: min(320px, calc(100vw - 24px));
+  pointer-events: none;
+}
+
+.balloon {
+  position: relative;
+  padding: 8px 12px;
+  background: var(--tooltip);
+  color: var(--text);
+  border: 1px solid var(--text);
+  border-radius: 6px;
+  font-size: 13px;
+  line-height: 1.4;
+  box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.25);
+  animation: pop 0.15s steps(2) both;
+}
+
+.balloon::after {
+  content: "";
+  position: absolute;
+  right: 22px;
+  bottom: -8px;
+  width: 12px;
+  height: 8px;
+  background: var(--tooltip);
+  border-right: 1px solid var(--text);
+  clip-path: polygon(0 0, 100% 0, 100% 100%);
+  box-shadow: inset -1px 0 var(--text);
+}
+
+@keyframes pop {
+  from {
+    opacity: 0;
+  }
+}

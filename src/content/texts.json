@@ -51,7 +51,7 @@
     "fusszeile": [
       "0 % STAATLICHE FÖRDERUNG",
       "GEMACHT MIT FRAGWÜRDIGEN ENTSCHEIDUNGEN",
-      "ICH WERDE NICHT DIE WANDKÜSSEN"
+      "ICH WERDE NICHT DIE WAND KÜSSEN"
     ],
     "fusszeileGeheimnisHinweis": [
       "psst, diese Website hat Geheimnisse.",
@@ -78,7 +78,7 @@
     ],
     "vorstellungLink": "Hier hast du die Antwort.",
     "legalSatz": "Anscheinend darf ich das ganz legal :)",
-    "versprechenUeberschrift": "Die Agenda — 6 Versprechen",
+    "versprechenUeberschrift": "Die Agenda — {anzahl} Versprechen",
     "versprechenAllesLesen": "Alle Versprechen lesen →",
     "steckbriefUeberschrift": "Steckbrief",
     "faktenName": "Name",
@@ -290,7 +290,7 @@
       "SEKUNDEN"
     ],
     "satzUnterTimer": "Meine Eier sind bis zu dieser Zeit sicher.",
-    "fussnote": "*siehe Versprechen 06",
+    "fussnote": "*siehe Versprechen {nummer}",
     "nachAblaufGross": "DIE EIER WURDEN ZERSTÖRT.",
     "nachAblaufSatz": "Meine Eier waren bis zu dieser Zeit sicher.",
     "nachAblaufKnopf": "ZERSTÖRUNG WIEDERHOLEN",

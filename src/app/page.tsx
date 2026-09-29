@@ -37,7 +37,7 @@ export default function Home() {
 
       <div className={styles.columns}>
         <fieldset className="win-group">
-          <legend>{s.versprechenUeberschrift}</legend>
+          <legend>{s.versprechenUeberschrift.replace("{anzahl}", String(promises.length))}</legend>
           <ol className={`win-box ${styles.list}`}>
             {promises.map((p) => (
               <li key={p._id}>

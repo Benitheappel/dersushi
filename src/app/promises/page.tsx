@@ -8,6 +8,8 @@ import styles from "./promises.module.css";
 
 const v = t.versprechenSeite;
 
+const fett = (text: string) => text.split(/\*\*(.+?)\*\*/g).map((s, i) => (i % 2 ? <strong key={i}>{s}</strong> : s));
+
 export const metadata: Metadata = {
   title: v.browserTitel,
   description: promises.map((p) => p.titel).join(" · "),
@@ -41,7 +43,7 @@ export default function Promises() {
             <h2 className="win-h2">{p.titel}</h2>
             <div className={styles.body}>
               {p.absaetze.map((para, i) => (
-                <p key={i}>{para}</p>
+                <p key={i}>{fett(para)}</p>
               ))}
             </div>
             {p.punkte && (
@@ -52,7 +54,7 @@ export default function Promises() {
                       {p.nummer}.{i + 1} {item.titel}
                       {item.detailsFolgenStempel && <span className={styles.stamp}>{v.detailsFolgen}</span>}
                     </h3>
-                    <p>{item.text}</p>
+                    <p>{fett(item.text)}</p>
                   </li>
                 ))}
               </ul>
@@ -96,7 +98,7 @@ export default function Promises() {
             {sushi.absaetze.map((para, i) => (
               <li key={i}>
                 <span aria-hidden="true">§ {i + 1}</span>
-                <p>{para}</p>
+                <p>{fett(para)}</p>
               </li>
             ))}
           </ol>

@@ -13,4 +13,5 @@ export type CampaignPromise = {
 };
 
 export const promises = data.liste as CampaignPromise[];
+export const sushiNummer = promises.find((p) => p._id === "sushi-promise")?.nummer ?? "";
 export const interlude = data.zwischenruf;

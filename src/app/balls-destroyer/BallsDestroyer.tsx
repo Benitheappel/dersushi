@@ -5,6 +5,7 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { TARGET_MS, getRemaining, hourBucket, pad, statusMessage, threatLevel } from "@/lib/countdown";
 import { readStore, writeStore } from "@/lib/browser";
 import { asset } from "@/lib/asset";
+import { sushiNummer } from "@/content/promises";
 import { t } from "@/content/texts";
 import styles from "./balls.module.css";
 
@@ -259,7 +260,7 @@ export default function BallsDestroyer() {
           <p className={`serif ${styles.safe}`}>
             {e.satzUnterTimer}
             <Link href="/promises#sushi-promise" className={styles.footnote}>
-              {e.fussnote}
+              {e.fussnote.replace("{nummer}", sushiNummer)}
             </Link>
           </p>
         </section>

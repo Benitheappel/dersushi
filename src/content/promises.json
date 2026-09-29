@@ -18,11 +18,6 @@
           "detailsFolgenStempel": true
         },
         {
-          "titel": "CreativeJam",
-          "text": "Die meisten, die das hier lesen, kennen eine Game Jam: Man bekommt ein Thema, eine Restriktion oder was auch immer für einen gewissen Zeitraum und muss irgendein Game mit diesen Konditionen erstellen. Dasselbe würde ich gerne auch in unserer kleinen Schule veranstalten. Mehr Infos folgen.",
-          "detailsFolgenStempel": true
-        },
-        {
           "titel": "Schulweites Sportturnier",
           "text": "Ein Konzept, das oft versprochen oder besprochen, aber von niemandem je umgesetzt wurde. Die besten Sportler aus verschiedenen Abteilungen treten gegeneinander an, wie bei einer Schulolympiade: Fußball, Volleyball, Rennen, Springen, Weitwurf, Tischtennis, was auch immer. Schüler repräsentieren ihre eigene Abteilung, egal in welcher Sportart.",
           "detailsFolgenStempel": true
@@ -71,8 +66,18 @@
       ]
     },
     {
-      "_id": "holi",
+      "_id": "htl-ball",
       "nummer": "05",
+      "ueberschriftKlein": "HTL BALL (DUH)",
+      "titel": "HTL Ball (duh)",
+      "kurzfassung": "Ich werde, wie jeder andere, den HTL Ball veranstalten.",
+      "absaetze": [
+        "Natürlich wird der HTL Ball, wie jedes Jahr, auch dieses Jahr stattfinden. Ich werde versuchen, mit einem meiner Kollegen, den ihr sicher kennts und der dieses Jahr auch als Schulsprecher kandidiert, zusammenzuarbeiten und seine Expertise mit Festln zu nutzen, um diesen HTL Ball zum besten zu machen, den wir machen können."
+      ]
+    },
+    {
+      "_id": "holi",
+      "nummer": "06",
       "ueberschriftKlein": "HOLI 2.0",
       "titel": "Eine zentrale Test und Skriptum Website für die Schule",
       "kurzfassung": "Tests und Skripten hochladen und teilen. Keine Mega Links mehr.",
@@ -82,8 +87,24 @@
       ]
     },
     {
+      "_id": "studentenrabatte",
+      "nummer": "07",
+      "ueberschriftKlein": "WENIGER ZAHLEN, MEHR BEKOMMEN",
+      "titel": "Studentenprogramme für die HTL Hollabrunn",
+      "kurzfassung": "Studentenrabatte für Spotify, Software & Co. Weniger zahlen, mehr bekommen.",
+      "absaetze": [
+        "Jede große Schule (sogar die HLW!!!) meldet ihre Schüler bei verschiedenen \"Students\" Programmen von unterschiedlichen Firmen an.",
+        "Und seien wir ehrlich, wer von uns hätte nicht Bock, weniger für seine Abos zu zahlen? Egal ob Spotify, Streamingdienste, Software oder andere Angebote, wenn es einen Studentenrabatt gibt, sollten wir als HTL Hollabrunn auch davon profitieren können.",
+        "Deshalb werde ich mich dafür einsetzen, dass die HTL Hollabrunn bei so vielen relevanten Studentenprogrammen wie möglich dabei ist. Wenn ein bestimmter Dienst ein Studenten-Abo oder spezielle Angebote für Schulen und Schüler anbietet, werde ich mich darum kümmern, dass wir diese Möglichkeit nicht einfach ignorieren.",
+        "Denn warum solltest du den Premium-Preis zahlen, wenn du als Schüler eigentlich weniger zahlen könntest?",
+        "Mein Ziel ist also ganz einfach: **Weniger zahlen, mehr bekommen.**",
+        "Und wenn ich dafür ein paar E-Mails schreiben, mit Firmen Kontakt aufnehmen und unseren Direktor davon überzeugen muss, dann werde ich das machen. Damit du am Ende vielleicht weniger für Spotify oder was auch immer zahlen musst.",
+        "Denn wenn andere Schulen das können, warum sollten wir es nicht auch können?"
+      ]
+    },
+    {
       "_id": "sushi-promise",
-      "nummer": "06",
+      "nummer": "08",
       "ueberschriftKlein": "DER SUSHI PROMISE",
       "titel": "Der Sushi Promise",
       "kurzfassung": "Jedes nicht umgesetzte Versprechen = ein Tritt. Egal, wie hart.",

@@ -223,7 +223,7 @@
     "regeln": [
       "Wähle eines der 3 Fotos aus.",
       "Verunstalte es mit den Werkzeugen: malen, ausschneiden, aufblasen, Text, Sticker, eigene Bilder …",
-      "Klick auf „Einsenden…“, signiere mit deinem Namen und gib deine E-Mail an. Jede Person darf nur einmal einsenden.",
+      "Klick auf \"Einsenden...\" signiere mit deinem Namen und gib deine E-Mail an. Jede Person darf nur einmal einsenden.",
       "Ich schaue mir jede Einsendung an. Die besten kommen in die Hall of Fame, das beste gewinnt."
     ],
     "preisUeberschrift": "Preis",
@@ -276,7 +276,7 @@
     "browserTitel": "Eier-Zerstörer",
     "warnband": "⚠ EIER-SICHERHEITSSYSTEM AKTIV ⚠ KEINE PANIK ⚠ DAS IST EINE WEBSITE FÜR EINE SCHULSPRECHERWAHL ⚠ ZUTRITT NUR FÜR BEFUGTE ⚠ JA, DAS IST NOTWENDIG ⚠",
     "warnbandNachAblauf": "⚠ EIER-SICHERHEITSSYSTEM OFFLINE ⚠ ZU SPÄT ⚠ ES IST PASSIERT ⚠",
-    "akte": "AKTE 05 / GEHEIM / NICHT KLICKEN (ZU SPÄT)",
+    "akte": "",
     "ueberschrift": "EIER-ZERSTÖRER",
     "ueberschriftNachAblauf": "EIER ZERSTÖRT.",
     "unterzeileKlein": "DER FINALE COUNTDOWN.",
@@ -308,12 +308,12 @@
       "mehrAls7Tage": "Alles ist vermutlich in Ordnung.",
       "mehrAls3Tage": "Langsam mache ich mir Sorgen.",
       "mehrAls24Stunden": "Das ist keine Übung.",
-      "mehrAls6Stunden": "Warum hab ich das gemacht?",
-      "mehrAls1Stunde": "OH NEIN.",
-      "mehrAls10Minuten": "DAS IST SEHR SCHLECHT.",
-      "mehrAls1Minute": "AUF WIEDERSEHEN.",
+      "mehrAls6Stunden": "Naja, ich wollte eh keine Kinder",
+      "mehrAls1Stunde": "\"ChatGPT wie ändere ich mein Identität\"",
+      "mehrAls10Minuten": "OK ok ok ok....",
+      "mehrAls1Minute": "AUF WIEDERSEHEN!!!!!!",
       "letzteMinute": "3… 2… 1…",
-      "nachAblauf": "ES IST PASSIERT."
+      "nachAblauf": "Es ist passiert..."
     },
     "zielWien": "ZIEL (WIEN)",
     "zielDeineUhr": "ZIEL (DEINE UHR)",

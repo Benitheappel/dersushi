@@ -24,22 +24,9 @@
   --pressed: inset -1px -1px var(--win-hi), inset 1px 1px var(--win-dark), inset -2px -2px var(--win-light), inset 2px 2px var(--win-shadow);
 
   --ink: #0b0b0a;
-  --ink-2: #161614;
   --paper: #efede6;
-  --paper-dim: #a9a79f;
   --acid: #d4ff1e;
-  --alarm: #ff3b1f;
-  --line: rgba(239, 237, 230, 0.16);
-  --bg: var(--ink);
-  --fg: var(--paper);
-  --fg-dim: var(--paper-dim);
-  --f-display: var(--font-display), "Arial Narrow", Impact, sans-serif;
   --f-mono: var(--font-mono), ui-monospace, Consolas, monospace;
-  --f-serif: var(--font-serif), "Times New Roman", serif;
-  --gutter: clamp(16px, 3vw, 40px);
-  --nav-h: 0px;
-  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
-  --ease-snap: cubic-bezier(0.7, 0, 0.2, 1);
 
   --taskbar-h: 40px;
 }
@@ -129,10 +116,6 @@ img, svg, video, canvas {
 .btn:focus-visible {
   outline: 1px dotted var(--text);
   outline-offset: -5px;
-}
-
-.btn--acid {
-  font-weight: 700;
 }
 
 .win-box {
@@ -254,37 +237,6 @@ img, svg, video, canvas {
   color: var(--win-shadow);
   border: 1px dashed var(--win-shadow);
   vertical-align: middle;
-}
-
-.display {
-  font-family: var(--f-display);
-  font-weight: 900;
-  font-variation-settings: "wdth" 62;
-  text-transform: uppercase;
-  line-height: 0.82;
-  letter-spacing: -0.01em;
-}
-
-.serif {
-  font-family: var(--f-serif);
-  font-weight: 400;
-  font-style: italic;
-}
-
-.mono {
-  font-family: var(--f-mono);
-  font-size: 12px;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  line-height: 1.4;
-}
-
-.dim {
-  color: var(--fg-dim);
-}
-
-.acid {
-  color: var(--acid);
 }
 
 @media (prefers-reduced-motion: reduce) {

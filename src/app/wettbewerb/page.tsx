@@ -16,6 +16,14 @@ export default function Wettbewerb() {
     <>
       <h1 className="win-h1">{w.ueberschrift}</h1>
       <p className="win-lead">{w.untertitel}</p>
+      {process.env.NODE_ENV === "development" && (
+        <p className={styles.devBar}>
+          <Link href="/wettbewerb/verwalten" className="btn">
+            ✎ Hall of Fame verwalten
+          </Link>
+          <span>(nur lokal sichtbar)</span>
+        </p>
+      )}
 
       <hr className="win-rule" />
 

@@ -9,7 +9,7 @@ import { toast } from "@/lib/browser";
 import PixelSushi from "./PixelSushi";
 import styles from "./window.module.css";
 
-const MAXIMISED = ["/balls-destroyer", "/blog/schreiben"];
+const MAXIMISED = ["/blog/schreiben", "/wettbewerb/verwalten"];
 
 const isActive = (pathname: string, href: string) => (href === "/" ? pathname === "/" : pathname.startsWith(href));
 

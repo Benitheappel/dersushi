@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { interlude, promises } from "@/content/promises";
 import { t } from "@/content/texts";
 import PixelIcon from "@/components/PixelIcon";
@@ -116,11 +115,6 @@ export default function Promises() {
         </div>
       </section>
 
-      <p className={styles.actions}>
-        <Link href="/balls-destroyer" className="btn">
-          {v.sieheAuchKnopf}
-        </Link>
-      </p>
     </>
   );
 }

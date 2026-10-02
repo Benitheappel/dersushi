@@ -33,10 +33,6 @@
       "blog": {
         "name": "Blog",
         "vorschau": "Neuigkeiten aus dem Wahlkampf"
-      },
-      "eierZerstoerer": {
-        "name": "Eier-Zerstörer",
-        "vorschau": "klicken nicht kicken"
       }
     },
     "statusleiste": [
@@ -169,8 +165,7 @@
     "dokumentName": "SUSHI-PROMISE.TXT - Editor",
     "aktenzeichen": "AKTENZEICHEN: SUSHI-2026-EIER",
     "grossNachVersprechen6": "Egal, wie hart.",
-    "unterschriftZeile": "BENJAMIN SULJIC — KANDIDAT, BESITZER DER BETROFFENEN EIER",
-    "sieheAuchKnopf": "Siehe auch: Eier-Zerstörer →"
+    "unterschriftZeile": "BENJAMIN SULJIC — KANDIDAT, BESITZER DER BETROFFENEN EIER"
   },
   "videos": {
     "browserTitel": "Videos",
@@ -272,62 +267,6 @@
     "neuerer": "← Neuerer Beitrag",
     "aelterer": "Älterer Beitrag →"
   },
-  "eierZerstoerer": {
-    "browserTitel": "Eier-Zerstörer",
-    "warnband": "⚠ EIER-SICHERHEITSSYSTEM AKTIV ⚠ KEINE PANIK ⚠ DAS IST EINE WEBSITE FÜR EINE SCHULSPRECHERWAHL ⚠ ZUTRITT NUR FÜR BEFUGTE ⚠ JA, DAS IST NOTWENDIG ⚠",
-    "warnbandNachAblauf": "⚠ EIER-SICHERHEITSSYSTEM OFFLINE ⚠ ZU SPÄT ⚠ ES IST PASSIERT ⚠",
-    "akte": "",
-    "ueberschrift": "EIER-ZERSTÖRER",
-    "ueberschriftNachAblauf": "EIER ZERSTÖRT.",
-    "unterzeileKlein": "DER FINALE COUNTDOWN.",
-    "unterzeileKleinNachAblauf": "DIE EIER WURDEN ZERSTÖRT.",
-    "unterzeileGross": "Meine Eier sind derzeit sicher.",
-    "unterzeileGrossNachAblauf": "Es ist passiert. Es ist wirklich passiert.",
-    "einheiten": [
-      "TAGE",
-      "STUNDEN",
-      "MINUTEN",
-      "SEKUNDEN"
-    ],
-    "satzUnterTimer": "Meine Eier sind bis zu dieser Zeit sicher.",
-    "fussnote": "*siehe Versprechen {nummer}",
-    "nachAblaufGross": "HEUTE IST DER TAG",
-    "nachAblaufSatz": "Meine Eier sind nicht mehr sicher",
-    "nachAblaufKnopf": "ZERSTÖRUNG WIEDERHOLEN",
-    "statusSystem": "EIER-SICHERHEITSSYSTEM",
-    "statusSystemAktiv": "⚠ AKTIV",
-    "statusSystemAus": "OFFLINE",
-    "statusTitel": "STATUS",
-    "statusSicher": "SICHER",
-    "statusZerstoert": "NICHT MEHR SICHER",
-    "bedrohungsstufe": "BEDROHUNGSSTUFE",
-    "integritaet": "HODEN-INTEGRITÄT",
-    "integritaetWert": "100%",
-    "systemmeldung": "SYSTEMMELDUNG",
-    "sprueche": {
-      "mehrAls7Tage": "Alles ist vermutlich in Ordnung.",
-      "mehrAls3Tage": "Langsam mache ich mir Sorgen.",
-      "mehrAls24Stunden": "Das ist keine Übung.",
-      "mehrAls6Stunden": "Naja, ich wollte eh keine Kinder",
-      "mehrAls1Stunde": "\"ChatGPT wie ändere ich mein Identität\"",
-      "mehrAls10Minuten": "OK ok ok ok....",
-      "mehrAls1Minute": "AUF WIEDERSEHEN!!!!!!",
-      "letzteMinute": "3… 2… 1…",
-      "nachAblauf": "Es ist passiert..."
-    },
-    "zielWien": "ZIEL (WIEN)",
-    "zielDeineUhr": "ZIEL (DEINE UHR)",
-    "naechsteGlocke": "NÄCHSTE GLOCKE IN",
-    "naechsteGlockeNie": "NIE WIEDER",
-    "tonAus": "TON: AUS — GLOCKE AKTIVIEREN",
-    "tonAn": "TON: AN",
-    "tonBlockiert": "TON: AN — VOM BROWSER BLOCKIERT",
-    "tonKlickNoetig": "TON: AN — IRGENDWO KLICKEN ZUM SCHARFSCHALTEN",
-    "glockeTesten": "GLOCKE TESTEN",
-    "glockeErlauben": "GLOCKE ERLAUBEN",
-    "tonHinweis": "Die Glocke läutet einmal zu jeder vollen Countdown Stunde. Dein Browser will vorher einen Klick.",
-    "keinePanik": "KEINE PANIK."
-  },
   "wieso": {
     "browserTitel": "Wieso?",
     "kopfzeile": "WIESO? — ANTWORT.EXE",
@@ -398,7 +337,7 @@
       {
         "titel": "5. Speicher in deinem Browser",
         "absaetze": [
-          "Einige Funktionen speichern kleine Einstellungen nur in deinem Browser (localStorage): die Ton-Einstellung und die zuletzt geläutete Stunde beim Eier-Zerstörer, deinen Rekord im Spiel und den Vermerk, dass du beim Wettbewerb schon teilgenommen hast.",
+          "Einige Funktionen speichern kleine Einstellungen nur in deinem Browser (localStorage): deinen Rekord im Spiel und den Vermerk, dass du beim Wettbewerb schon teilgenommen hast.",
           "Diese Daten verlassen deinen Browser nicht und werden nicht an mich übertragen. Sie sind für die von dir genutzte Funktion erforderlich (§ 165 Abs. 3 TKG 2021). Du kannst sie jederzeit in deinen Browser-Einstellungen löschen."
         ]
       },

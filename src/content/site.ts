@@ -10,5 +10,4 @@ export const navItems = [
   { no: "04", href: "/games", label: n.spiele.name, preview: n.spiele.vorschau },
   { no: "05", href: "/wettbewerb", label: n.wettbewerb.name, preview: n.wettbewerb.vorschau },
   { no: "06", href: "/blog", label: n.blog.name, preview: n.blog.vorschau },
-  { no: "07", href: "/balls-destroyer", label: n.eierZerstoerer.name, preview: n.eierZerstoerer.vorschau },
 ];

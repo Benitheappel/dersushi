@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Archivo, Instrument_Serif, JetBrains_Mono, Pixelify_Sans } from "next/font/google";
+import { JetBrains_Mono, Pixelify_Sans } from "next/font/google";
 import "./globals.css";
 
 import Window from "@/components/Window";
@@ -16,16 +16,7 @@ const pixel = Pixelify_Sans({
   display: "swap",
 });
 
-const display = Archivo({ subsets: ["latin"], axes: ["wdth"], variable: "--font-display", display: "swap", preload: false });
 const mono = JetBrains_Mono({ subsets: ["latin"], variable: "--font-mono", display: "swap", preload: false });
-const serif = Instrument_Serif({
-  subsets: ["latin"],
-  weight: "400",
-  style: ["normal", "italic"],
-  variable: "--font-serif",
-  display: "swap",
-  preload: false,
-});
 
 export const metadata: Metadata = {
   title: {
@@ -43,7 +34,7 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="de" className={`${pixel.variable} ${display.variable} ${mono.variable} ${serif.variable}`}>
+    <html lang="de" className={`${pixel.variable} ${mono.variable}`}>
       <body>
         <a href="#main" className="skip">
           {t.ueberall.zumInhaltSpringen}
